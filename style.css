@@ -1,0 +1,113 @@
+html,body,div,span,h1,h2,h3,h4,a,p,ol,ul,li{
+     margin: 0; padding: 0; border: 0; outline: 0;
+      font-size: 100%; vertical-align: baseline; background: transparent;
+     }
+ 
+     /*начинаем сверху и далее по часовой стрелке: top, right, bottom, left*/
+ body { 
+       width: 75%;
+        margin: 50px 30px 55px 55px;
+        line-height: 1;
+    }
+
+    div{
+        margin: 5px 10px 15px 20px; 
+    
+    }
+
+    #header{
+        margin: 5px 10px 32px 20px; 
+        align-content: center;
+    
+    }
+    
+    #main {
+        margin: 5px 10px 15px 20px; 
+    
+    }
+    
+    #footer{
+        margin: 64px 10px 15px 20px; 
+        align-content: center;
+    
+    }
+    
+    h1{
+    
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 36px;
+        font-weight: 400;
+        margin: 5px 10px 0px 20px; 
+    
+    }
+
+    h2{
+    
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 32px;
+        font-weight: 400;
+        border-bottom: 1px;
+        border-bottom-color: gray;
+        margin: 5px 10px 8px 20px; 
+    
+    }
+
+    h3{
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 5px 10px 0px 20px; 
+    
+    }
+
+    h4{
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 80%; /* Размер шрифта в процентах */ 
+        margin: 5px 10px 15px 20px; 
+    
+    }
+
+    ul {
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%; /* Размер шрифта в процентах */ 
+        margin: 5px 10px 15px 20px;
+         list-style: none;
+    }
+
+    li {
+        color: rgb(43, 43, 43); /* цвет символов */ 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%; /* Размер шрифта в процентах */ 
+        margin: 5px 10px 15px 20px;
+         list-style: none;
+    }
+   
+   /*начинаем сверху и далее по часовой стрелке*/
+   p {
+    margin: 5px 10px 12px 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%; /* Размер шрифта в процентах */ 
+    line-height: 2;
+}
+
+.letter { 
+    color: rgb(43, 43, 43); /* цвет символов */ 
+    font-size: 100%; /* Размер шрифта в процентах */ 
+    font-family: Courier New; /* Шрифт  */ 
+    position: relative; /* Относительное позиционирование */ 
+    margin: 5px 10px 15px 20px; 
+   }
+
+   .lnk { 
+    color: rgb(43, 43, 43); /* цвет символов */ 
+    font-size: 100%; /* Размер шрифта в процентах */ 
+    font-family: Courier New; /* Шрифт  */ 
+    position: relative; /* Относительное позиционирование */ 
+    margin: 5px 10px 15px 20px; 
+  
+   }
